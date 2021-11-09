@@ -5,6 +5,7 @@
 - For an input person, get the 3 most similar persons in DB.
 
 ##Description
+
 ###Add a new person
 
 **Definitions**
