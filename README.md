@@ -1,6 +1,6 @@
 # Face Recognition
 
-##Usage
+##Usage##
 '''
 Response:
 json
