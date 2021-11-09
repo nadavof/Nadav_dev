@@ -1,19 +1,12 @@
 # Face Recognition
 
-**Usage**
+##Usage
+- Post a person to a DB
+- For an input person, get the 3 most similar persons in DB.
 
+##Description
+###Add a new person
 
-**Definitions**
-'Get /persons' 
-- fail /sucess 
-**Response**
-
-{
-  "name": "Name"
-  "features": "Features"
-}
-
-##Add a new person
 **Definitions**
 'Post / persons'
 
@@ -22,26 +15,15 @@
 - '"features": np array' vector of features
 
 **Response**
+- '201, SUCESS / 400, FAIL'
 
-- '201 sucess / fail'
-
-'''json
-[
-  {
-    "name": "Name"
-    "features": "Features"
-  }, 
-  {
-    "name": "Name"
-    "features": "Features"
-  }, 
-  
-  {
-    "name": "Name"
-    "features": "Features"
-  }
+'Get /persons' 
+- fail /sucess 
+**Response**
+3 most similar person by a dot product 
+{
+  "SUCESS": (Name, Features)
+}
 
 
 
-]
-'''
