@@ -20,8 +20,12 @@
 
 ### Get most similar persons in DB
 
-'Get /persons' 
-- fail /sucess 
+**Definitions**
+'Get / persons'
+
+**Arguments**
+- '"features": np array' vector of features
+- 
 **Response**
 3 most similar person by a dot product 
 {
