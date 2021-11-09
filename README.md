@@ -18,6 +18,8 @@
 **Response**
 - '201, SUCESS / 400, FAIL'
 
+### Get most similar persons in DB
+
 'Get /persons' 
 - fail /sucess 
 **Response**
