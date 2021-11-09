@@ -1,12 +1,12 @@
 # Face Recognition
 
-##Usage
+## Usage
 - Post a person to a DB
 - For an input person, get the 3 most similar persons in DB.
 
-##Description
+## Description
 
-###Add a new person
+### Add a new person
 
 **Definitions**
 'Post / persons'
